@@ -28,6 +28,7 @@ button {
 }
 .title {
   margin: 0 auto;
+  text-align: center;
 }
 .btn {
   /*letter-spacing: 2px;*/
@@ -168,6 +169,25 @@ button {
 .leader_list li {
   padding: 10px 0px;
 }
+/*---------thinking--------------*/
+.thinking {
+  padding: 55px 0 35px;
+  background-color: #cfd9f2de;
+}
+.thinking_title {
+  margin-bottom: 25px;
+}
+.thinking_list li {
+  padding: 10px 20px;
+  font-size: 18px;
+  display: flex;
+  align-items: center;
+}
+.thinking_list i {
+  margin-right: 20px;
+  font-size: 50px;
+  color: #d07081;
+}
 /*---------media----------------*/
 @media (max-width: 991px) {
   .header {
@@ -249,6 +269,9 @@ button {
   .header_info {
     line-height: 1rem;
   }
+  .leader_title {
+    font-size: 1.4rem;
+  }
 }
 @media (max-width: 390px) {
   .header_img img {
@@ -267,4 +290,9 @@ button {
   .header_btn {
     letter-spacing: 0;
   }
+  .leader_title {
+    font-size: 1.2rem;
+  }
+  .yourself_list i, .thinking_list i {
+    font-size: 30px;
 }
