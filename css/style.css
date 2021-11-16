@@ -37,6 +37,14 @@ button {
   font-size: 1.2rem;
   text-transform: uppercase;
 }
+.bg_color {
+  background-color: #cfd9f2de;
+}
+.list i {
+  margin-right: 20px;
+  font-size: 50px;
+  color: #d07081;
+}
 /*-------------*/
 .header {
   height: 74vh;
@@ -106,24 +114,15 @@ button {
   font-size: 38px;
   margin-bottom: 95px;
 }
-.yourself_list {
-}
 .yourself_list li {
   padding: 10px 20px;
   font-size: 18px;
   display: flex;
   align-items: center;
 }
-.yourself_list i {
-  margin-right: 20px;
-  font-size: 50px;
-  /*font-weight: 100;*/
-  color: #d07081;
-}
 /*--------statistic------*/
 .statistic {
   padding: 37px 0 12px;
-  background: #cfd9f2de;
 }
 .statistic_list {
   display: flex;
@@ -165,7 +164,6 @@ button {
 /*---------thinking--------------*/
 .thinking {
   padding: 55px 0 35px;
-  background-color: #cfd9f2de;
 }
 .thinking_title {
   margin-bottom: 25px;
@@ -175,11 +173,6 @@ button {
   font-size: 18px;
   display: flex;
   align-items: center;
-}
-.thinking_list i {
-  margin-right: 20px;
-  font-size: 50px;
-  color: #d07081;
 }
 /*---------slider------------*/
 .sliders {
@@ -265,7 +258,30 @@ button {
 .slide {
   height: 100%;
 }
-/*---------*/
+/*------goals----------------*/
+.goals {
+  padding: 63px 0 40px;
+}
+.goals_subtitle {
+  margin-top: 15px;
+  font-style: italic;
+  font-size: 1.2rem;
+}
+.goals_list li {
+  display: flex;
+  padding: 10px 20px;
+  font-size: 1rem;
+  align-items: center;
+}
+.goals_list i {
+  font-size: 2.9rem;
+}
+.goals h5 {
+  font-weight: 700;
+}
+.goals_btn {
+  margin-top: 0;
+}
 /*---------media----------------*/
 @media (max-width: 991px) {
   .header {
@@ -347,6 +363,10 @@ button {
     font-size: 1.25rem;
     margin-bottom: 15px;
   }
+  .list i {
+    font-size: 30px;
+    margin-right: 10px;
+  }
 }
 @media (max-width: 390px) {
   .header_img img {
@@ -364,8 +384,5 @@ button {
   }
   .leader_title {
     font-size: 1.2rem;
-  }
-  .yourself_list i, .thinking_list i {
-    font-size: 30px;
   }
 }
