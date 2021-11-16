@@ -331,7 +331,49 @@ button {
   line-height: 1.4;
   margin: 4px 0 0 0;
 }
+/*---------reviews------------*/
+.reviews {
+  padding: 25px 0;
+}
+.reviews_title {
+  margin-bottom: 30px;
+}
+/*--------sign up--------------*/
+.sign-up {
+  padding: 35px 0 60px;
+}
+.form {
+  display: flex;
+  flex-direction: column;
+  color: #041469;
+  border-radius: 30px;
+  background: #fff;
+  padding: 42px 26px 57px;
+  align-items: center;
+  margin-top: 60px;
+  box-shadow: 0 20px 90px #cfd9f2de;
+}
+.form_title {
+  font-weight: 700;
+  font-size: 18px;
+  text-align: center;
+}
+.form label {
+  text-align: left;
+  margin-top: 20px;
+}
+.form_input {
+  width: 80%;
+  border-radius: 30px;
+  padding: 12px;
+  border: 1px solid #041469;
+}
+.form_btn {
+  width: 50%;
+  margin-top: 35px;
+}
 /*---------media----------------*/
+
 @media (max-width: 991px) {
   .header {
     height: 60vh;
@@ -367,6 +409,9 @@ button {
   .yourself_title {
     margin-bottom: 50px;
   }
+  .form_input {
+    width: 100%;
+  }
 }
 @media (max-width: 767px) {
   .header_img {
@@ -381,6 +426,14 @@ button {
   }
   .header_menu li {
     margin-bottom: 0;
+  }
+  .form {
+    margin-top: 30px;
+  }
+  .form_btn {
+    width: 65%;
+    font-size: 0.9rem;
+    padding: 10px;
   }
 }
 @media (max-width: 576px) {
@@ -432,6 +485,9 @@ button {
     text-align: left;
     padding-left: 40px;
     padding-right: 0;
+  }
+  .form_btn {
+    width: 100%;
   }
 }
 @media (max-width: 390px) {
