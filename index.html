@@ -14,17 +14,21 @@
   <meta property="og:image" content="./img/favicon.ico">
   <meta property="og:site_name" content="MantraDrawing">
   <!-- Font-Awesome -->
-  <link rel="stylesheet" href="css/font-awesome.min.css">
+  <link rel="stylesheet" href="./css/font-awesome.min.css">
   <link rel="stylesheet" href="https://use.fontawesome.com/releases/v5.0.13/css/all.css"
-        integrity="sha384-DNOHZ68U8hZfKXOrtjWvjxusGo9WQnrNx2sqG0tfsghAvtVlRW3tvkXWZh58N9jp" crossorigin="anonymous">
+        integrity="sha384-DNOHZ68U8hZfKXOrtjWvjxusGo9WQnrNx2sqG0tfsghAvtVlRW3tvkXWZh58N9jp"
+        crossorigin="anonymous">
   <!-- Font-Awesome 4.7.0 -->
   <link href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/4.7.0/css/font-awesome.min.css" media="all" rel="stylesheet" type="text/css">
   <!-- Bootstrap Reboot CSS -->
-  <link rel="stylesheet" href="css/bootstrap-reboot.min.css">
+  <link rel="stylesheet" href="./css/bootstrap-reboot.min.css">
   <!-- Bootstrap CSS -->
-  <link rel="stylesheet" href="css/bootstrap.min.css">
+  <link rel="stylesheet" href="./css/bootstrap.min.css">
+  <!--------Slick-Slider-------------->
+  <link rel="stylesheet" href="./css/slick.css">
+  <link rel="stylesheet" href="./css/slick-theme.css">
   <!-- Main CSS -->
-  <link rel="stylesheet" href="css/style.css">
+  <link rel="stylesheet" href="./css/style.css">
 </head>
 <body>
   <header id="header" class="header">
@@ -32,7 +36,7 @@
       <nav class="header_nav">
         <ul class="header_menu">
           <li><a href="#leader">Ведущая встречи</a></li>
-          <li><a href="#examples">Примеры работ</a></li>
+          <li><a href="#sliders">Примеры работ</a></li>
           <li><a href="#timetable">Расписание</a></li>
           <li><a href="#sign-up">Записаться на встречу</a></li>
         </ul>
@@ -159,10 +163,49 @@
 
     </section>
     <!-- / #thinking -->
-    <section id="examples" class="join">
-
+    <section id="sliders" class="sliders">
+      <div class="container">
+        <div class="row justify-content-center">
+          <div class="col-lg-10 col-md-12 align-self-center">
+            <h3 class="sliders_title title">
+              Они не умели рисовать, но у них все получилось! Присоединяйся!
+            </h3>
+          </div>
+        </div>
+        <div class="row">
+          <div class="col-lg-10 m-auto">
+            <div class="big-slider">
+              <div class="big-slider__item">
+                <a href="./img/slider_1.jpeg" data-lightbox="slider" data-title="Описание фото">
+                  <img src="./img/slider_1.jpeg" alt="Slide">
+                </a>
+              </div>
+              <div class="big-slider__item">
+                <a href="./img/slider_2.jpeg" data-lightbox="slider" data-title="Описание фото">
+                  <img src="./img/slider_2.jpeg" alt="Slide">
+                </a>
+              </div>
+              <div class="big-slider__item">
+                <a href="./img/slider_3.jpeg" data-lightbox="slider" data-title="Описание фото">
+                  <img src="./img/slider_3.jpeg" alt="Slide">
+                </a>
+              </div>
+              <div class="big-slider__item">
+                <a href="./img/slider_4.jpeg" data-lightbox="slider" data-title="Описание фото">
+                  <img src="./img/slider_4.jpeg" alt="Slide">
+                </a>
+              </div>
+              <div class="big-slider__item">
+                <a href="./img/slider_5.jpeg" data-lightbox="slider" data-title="Описание фото">
+                  <img src="./img/slider_5.jpeg" alt="Slide">
+                </a>
+              </div>
+            </div>
+          </div>
+        </div>
+      </div>
     </section>
-    <!-- / #examples -->
+    <!-- / #sliders -->
     <section id="goals" class="drawing">
 
     </section>
@@ -185,5 +228,9 @@
 
   </footer>
   <!-- / #footer -->
+  <!-- scripts -->
+  <script src="./js/jquery-3.3.1.min.js"></script>
+  <script src="./js/slick.min.js"></script>
+  <script src="./js/script.js"></script>
 </body>
 </html>
