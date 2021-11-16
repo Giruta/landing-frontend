@@ -368,6 +368,7 @@ button {
   font-weight: 700;
   font-size: 18px;
   text-align: center;
+  margin-bottom: 20px;
 }
 .form label {
   text-align: left;
