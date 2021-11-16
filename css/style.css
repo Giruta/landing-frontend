@@ -418,6 +418,119 @@ button {
 .present_title {
   margin-top: 65px
 }
+/*--------contact----------------*/
+.contact {
+  padding: 25px 0;
+}
+.contact_info {
+  /*width: 470px;*/
+  /*height: 344px;*/
+  background-color: rgba(207, 217, 242, 0.87);
+  padding: 21px 15px;
+  color: #fff;
+  border: none;
+}
+.contact_info:before {
+  content: "";
+  border: 20px solid transparent;
+  border-left: 20px solid #cfd9f2de;
+  border-top: 20px solid #cfd9f2de;
+  border-radius:3px;
+  transform:rotate(-45deg);
+  position: absolute;
+  display: block;
+  top: 8px;
+  left: -4px;
+}
+.contact_map {
+  min-height: 219px;
+  height: 100%;
+  background: url("../img/map.png") no-repeat top center/cover;
+}
+.card__logo {
+  font-size: 21px;
+  color: #fff;
+  letter-spacing: 0.03em;
+}
+.card__item{
+  margin-right: 20px;
+}
+.card__item:last-child{
+  margin-right: 0;
+}
+.card__link {
+  color: #fff;
+  display: flex;
+  border: 2px solid #fff;
+  width: 30px;
+  height: 30px;
+  justify-content: center;
+  align-items: center;
+}
+.card__item:hover .card__link {
+  color: #d07081;
+  border: 2px solid #d07081;
+}
+.card__header {
+  border-bottom: 2px solid rgba(256, 256, 256, 0.22);
+  border-radius: 1px;
+}
+.card__main {
+  padding-top: 30px;
+  justify-content: space-between;
+}
+.card__contact {
+  width: 200px;
+  font-size: 16px;
+}
+.card__contact i {
+  font-size: 14px;
+}
+.card__contact a:hover {
+  color: #d07081;
+}
+.card__text {
+  width: 186px;
+}
+.card__phone {
+  color: white;
+  font-size: 16px;
+  padding-left: 8px;
+  margin-bottom: 2px;
+  display: block;
+}
+.card__phones {
+  margin-bottom: 22px;
+}
+.card__adress i {
+  margin: 5px 12px 0 5px;
+  color: #fff;
+}
+.card__adress p {
+  font-size: 16px;
+  letter-spacing: 0;
+  margin-bottom: 0;
+  padding-right: 15px;
+}
+.card__adress {
+  margin-bottom: 21px;
+  letter-spacing: 0.02em;
+}
+.card__email {
+  color: #fff;
+  padding-left: 11px;
+  letter-spacing: 0.02em;
+}
+.card__text p {
+  color: rgba(256, 256, 256, 0.75);
+  font-size: 12px;
+  letter-spacing: 0;
+  padding-left: 3px;
+  margin-bottom: 16px;
+}
+.card__text p:last-child {
+  margin-bottom: 0;
+}
 /*---------media----------------*/
 
 @media (max-width: 991px) {
@@ -457,6 +570,12 @@ button {
   }
   .form_input {
     width: 100%;
+  }
+  .contact_info {
+    margin-top: 20px;
+  }
+  .contact_info:before {
+    top: 28px;
   }
 }
 @media (max-width: 767px) {
