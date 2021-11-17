@@ -59,12 +59,12 @@ button {
 }
 .header_img {
   position: absolute;
-  right: 15%;
+  right: 10%;
   bottom: 0;
   text-align: end;
 }
 .header_img img {
-  width: 51%;
+  width: 45%;
 }
 .header_menu {
   display: flex;
@@ -421,6 +421,9 @@ button {
 /*--------contact----------------*/
 .contact {
   padding: 25px 0;
+}
+.contact_title {
+  margin-bottom: 25px;
 }
 .contact_info {
   /*width: 470px;*/
